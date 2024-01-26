@@ -46,7 +46,7 @@ import threejs from "../assets/tech/threejs.svg";
   
   const services = [
     {
-      title: "Web Development",
+      title: "Machine Learning",
       icon: web,
     },
     {
@@ -124,7 +124,7 @@ import threejs from "../assets/tech/threejs.svg";
       company_name: "Ericsson Global",
       icon: starbucks,
       iconBg: "#d7e1f7",
-      date: "March 2020 - April 2021",
+      date: "January 2020 - June 2020",
       points: [
         "Pioneered and handled an Angular Dashboard by employing Angular, Rest API via JavaScript for a Low-Code Program and delivered front-end service to beginner developers to choose a pre-defined coding template/environment",
         "Collaborated on the front-end of a Vila-Portal Project via JavaScript, Bootstrap, HTML3 and CSS5 and provided drag and drop access to company analysis comprising of yearly profits and loss resulting in a detailed insight analysis increase by 8%",
@@ -132,11 +132,11 @@ import threejs from "../assets/tech/threejs.svg";
       ],
     },
     {
-      title: "Data Analyst",
+      title: "Data Engineer",
       company_name: "Ericsson Global",
       icon: tesla,
       iconBg: "#d7e1f7",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2020 - December 2020",
       points: [
         "Performed data mining and analysis utilizing Python libraries to generate hourly alerts and timed reports along with designing and maintaining production-quality dashboards and carried out data manipulation and organization of 100+ complex datasets",
         "Optimized SQL queries, data aggregation for analyzing data on established and prospective customers, interactive marketing channels and developed Tableau dashboards and increased sales revenue by 18%",
@@ -144,11 +144,11 @@ import threejs from "../assets/tech/threejs.svg";
       ],
     },
     {
-      title: "Data Software Engineering Coop",
+      title: "Data Engineer",
       company_name: "Abiomed",
       icon: shopify,
       iconBg: "#FFFFFF",
-      date: "Jan 2023 - June 2023",
+      date: "Jan 2023 - July 2023",
       points: [
         "Streamlined attribute retrieval and resolved UI issues for SiteInformation and LocationInformation Schema using PostgreSQL, DBeaver, VueJS and Postman by optimizing queries and conducting unit tests and Postman API testing to ensure accurate display of information and enhancing the reliability and accuracy of the ABI Virtual Assistant application by 7%",
         "Demonstrated effective document management and control by adding User Interface Requirement Specifications to the Project Plan in JAMA by defining component appearance, attributes, and their purpose, increasing clarity and ensuring efficient development of the AxM Project",
