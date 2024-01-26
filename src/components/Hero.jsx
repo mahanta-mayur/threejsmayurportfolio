@@ -4,8 +4,8 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   const text = 'Hi I am Mayur';
-  const secondaryText = 'A Full Stack Software Engineer, Data Engineer';
-  const tertiaryText = 'with a knack for 3D Visuals and Gaming'; // Text to be animated
+  const secondaryText = 'Full Stack Data Engineer';
+  const tertiaryText = 'with a knack for AI and Machine Learning'; // Text to be animated
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
