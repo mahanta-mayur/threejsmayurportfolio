@@ -47,24 +47,25 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      ><div className="w-full md:w-[1000px]">
-        I'm a skilled software developer and data engineer with experience in
-        JavaScript, and expertise in frameworks like React, Node.js, Three.js,
-        and Vue. On the data side of things, Through development of personal projects and 
-        a valuable internship, I have learned the importance of having an iterative, 
-        hypothesis-oriented approach to Machine Learning, Analysis and Decision Intelligence. 
-        I have also gained proficiency working with Python, SQL, R, Tableau. I also have 
-        experience as a Software Engineer in Testing, skilled in ensuring the quality and 
-        reliability of software solutions. With expertise in tools like Cypress and Docker, 
-        I specialize in validating and enhancing the performance of applications, contributing 
-        to the creation of robust and dependable software experiences. 
-        An audiophile, guitar player and a vagabond who always likes
-        to explore nature in pursuit of a greater purpose in life!
+      >
+        <div className="w-full md:w-[1000px]">
+          I'm a skilled software developer and data engineer with experience in
+          JavaScript, and expertise in frameworks like React, Node.js, Three.js,
+          and Vue. On the data side of things, Through development of personal projects and 
+          a valuable internship, I have learned the importance of having an iterative, 
+          hypothesis-oriented approach to Machine Learning, Analysis and Decision Intelligence. 
+          I have also gained proficiency working with Python, SQL, R, Tableau. I also have 
+          experience as a Software Engineer in Testing, skilled in ensuring the quality and 
+          reliability of software solutions. With expertise in tools like Cypress and Docker, 
+          I specialize in validating and enhancing the performance of applications, contributing 
+          to the creation of robust and dependable software experiences. 
+          An audiophile, guitar player and a vagabond who always likes
+          to explore nature in pursuit of a greater purpose in life!
         </div>
-      </motion.p>
+      </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

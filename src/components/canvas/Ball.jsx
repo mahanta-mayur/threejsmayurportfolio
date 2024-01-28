@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -7,11 +7,17 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
+
+  // Cleanup
+  useEffect(() => {
+    return () => {
+      decal.dispose();
+    };
+  }, [decal]);
 
   return (
     <Float speed={3.0} rotationIntensity={0.1} floatIntensity={2.0}>
@@ -45,10 +51,9 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} enablePan={false} rotateSpeed={0.9}/>
+        <OrbitControls enableZoom={false} enablePan={false} rotateSpeed={0.9} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
