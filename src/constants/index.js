@@ -23,7 +23,9 @@ import {
     jobit,
     tripguide,
   } from "../assets";
-  
+
+import pred from '../assets/pred.png'; 
+import aws from '../assets/aws.png';  
 import mapboxImage from "../assets/mapboxImage.png";
 import tab from "../assets/tab.png";
 import time from "../assets/time.png";
@@ -46,7 +48,7 @@ import threejs from "../assets/tech/threejs.svg";
   
   const services = [
     {
-      title: "Machine Learning",
+      title: "Data Science",
       icon: web,
     },
     {
@@ -54,11 +56,11 @@ import threejs from "../assets/tech/threejs.svg";
       icon: mobile,
     },
     {
-      title: "Data Science",
+      title: "Analytics",
       icon: backend,
     },
     {
-      title: "Dev Ops",
+      title: "Cloud Services",
       icon: creator,
     },
   ];
@@ -187,6 +189,220 @@ import threejs from "../assets/tech/threejs.svg";
   
   const projects = [
     {
+      name: "Classification Analysis on NYPD Crime Arrest Data",
+      description:
+        "Presenting an insightful breakdown of NYPD arrests in New York City this year. I conducted comprehensive Data Wrangling, involving meticulous data preprocessing and cleaning. Leveraging Python libraries like Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, I extracted compelling visualizations. Machine Learning Models --",
+      tags: [
+        {
+          name: "DataScience",
+          color: "green-text-gradient",
+        },        
+        {
+          name: "KNN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Linear Regression",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Logistic Regression",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Random Forest",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Naïve-Bayes",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Neural Networks",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mapboxImage,
+      source_code_link: "https://github.com/mahanta-mayur/Classification-Analysis-on-NYPD-Crime-Arrest-Data",
+    },
+    {
+      name: "Advanced Machine Learning in Predictive Maintenance",
+      description:
+        "This project represents a leap in predictive maintenance for engineering, utilizing machine learning to preemptively identify maintenance needs. Leveraging a UCI synthetic dataset with 10,000 records and 14 features, including Air Temperature and Torque, I delved into extensive data preprocessing to handle nulls, outliers, and feature selection. The project employed a variety of ML models - Logistic Regression, Naive Bayes, Decision Trees, and Support Vector Machines - to predict equipment failures, leading to optimized maintenance schedules, enhanced productivity, and reduced operational costs. Key success metrics included an impressive F1-score of 0.95 for Logistic Regression, underscoring its efficacy in failure prediction.",
+      tags: [
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },        
+        {
+          name: "MachineLearning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LogisticRegression",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NaiveBayes",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "DecisionTrees",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SVM",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: pred,
+      source_code_link: "https://github.com/mahanta-mayur/predictivemaintenance",
+    },
+    {
+      name: "Time Series Feature Extraction for Human Body Monitoring",
+      description:
+        "Employing advanced computational techniques, I conducted Visibility Graph Network Computations. I harnessed both HVG and NVG methodologies to analyze intricate human body movement data. Leveraging Python libraries such as Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, factors were computed and helped generate insightful Scatter Plots. This holistic approach offers deeper insights into movement patterns and relationships.",
+      tags: [
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sckit-Learn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Numpy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "DataScience",
+          color: "pink-text-gradient",
+        },        
+        {
+          name: "Pandas",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "green-text-gradient",
+        },
+      ],
+      image: time,
+      source_code_link: "https://github.com/mahanta-mayur/Time-Series-Feature-Extraction-for-Human-Body-Monitoring",
+    },
+    {
+      name: "YouTube Data Engineering & Analytics with AWS",
+      description:
+        "In this innovative project, I harnessed AWS cloud technology to orchestrate a robust data engineering pipeline for YouTube video analytics. The journey began with data ingestion from diverse sources, leading to a sophisticated ETL process using AWS Lambda functions. This process efficiently transformed raw data into analyzable formats. Utilizing AWS services like S3, Glue, and Athena, I created a scalable data lake, ensuring high adaptability for growing data volumes. The culmination of this project was the development of insightful QuickSight dashboards, offering a comprehensive analysis of YouTube video trends and viewer interactions based on categories and metrics.",
+      tags: [
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DataEngineering",
+          color: "blue-text-gradient",
+        },        
+        {
+          name: "AWS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Lambda",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "QuickSight",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "S3",
+          color: "green-text-gradient",
+        },        
+        {
+          name: "Athena",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Glue",
+          color: "green-text-gradient",
+        },
+      ],
+      image: aws,
+      source_code_link: "https://github.com/mahanta-mayur/Youtube-Analysis-AWS",
+    },
+    {
+      name: "Data Analysis on Elections",
+      description:
+        "This mini project delves into Indian Elections Analysis using Hadoop (Big Data). It encompasses a comprehensive study of the 2019 Indian Elections datasets through Tableau and Hadoop. This endeavor seeks to ascertain political party popularity, decipher intricate trends, and patterns via Python. Additionally, it probes the correlation between party density and topography. The project culminates with a detailed analysis report, utilizing Hive to explore and infer win/loss percentages of parties.",
+      tags: [
+        {
+          name: "DataAnalytics",
+          color: "pink-text-gradient",
+        },        
+        {
+          name: "Tableau",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Hive",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HBase",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HDFS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MapReduce",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tab,
+      source_code_link: "https://github.com/mahanta-mayur/Data-Analysis-Vizualizations",
+    },
+    {
+      name: "Time Series Feature Extraction for Human Body Monitoring",
+      description:
+        "Employing advanced computational techniques, I conducted Visibility Graph Network Computations. I harnessed both HVG and NVG methodologies to analyze intricate human body movement data. Leveraging Python libraries such as Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, factors were computed and helped generate insightful Scatter Plots. This holistic approach offers deeper insights into movement patterns and relationships.",
+      tags: [
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sckit-Learn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Numpy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "green-text-gradient",
+        },
+      ],
+      image: aws,
+      source_code_link: "https://github.com/mahanta-mayur/Time-Series-Feature-Extraction-for-Human-Body-Monitoring",
+    },
+    {
       name: "Employee Rating Application",
       description:
         "Modelled and developed an employee performance Data Warehouse, by creating a multi-dimensional schema and ran various SQL and NoSQL (MongoDB) queries on it. Visualized and provided some important observations in Python by drawing significant insights on the Review Data.",
@@ -256,102 +472,7 @@ import threejs from "../assets/tech/threejs.svg";
       ],
       image: tripguide,
       source_code_link: "https://github.com/mahanta-mayur/react-weather-app",
-    },
-    {
-      name: "Classification Analysis on NYPD Crime Arrest Data",
-      description:
-        "Presenting an insightful breakdown of NYPD arrests in New York City this year. I conducted comprehensive Data Wrangling, involving meticulous data preprocessing and cleaning. Leveraging Python libraries like Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, I extracted compelling visualizations. Machine Learning Models --",
-      tags: [
-        {
-          name: "KNN",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Linear Regression",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Logistic Regression",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Random Forest",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Naïve-Bayes",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Neural Networks",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: mapboxImage,
-      source_code_link: "https://github.com/mahanta-mayur/Classification-Analysis-on-NYPD-Crime-Arrest-Data",
-    },
-    {
-      name: "Data Analysis on Elections",
-      description:
-        "This mini project delves into Indian Elections Analysis using Hadoop (Big Data). It encompasses a comprehensive study of the 2019 Indian Elections datasets through Tableau and Hadoop. This endeavor seeks to ascertain political party popularity, decipher intricate trends, and patterns via Python. Additionally, it probes the correlation between party density and topography. The project culminates with a detailed analysis report, utilizing Hive to explore and infer win/loss percentages of parties.",
-      tags: [
-        {
-          name: "Tableau",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Hive",
-          color: "green-text-gradient",
-        },
-        {
-          name: "HBase",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "HDFS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MapReduce",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: tab,
-      source_code_link: "https://github.com/mahanta-mayur/Data-Analysis-Vizualizations",
-    },
-    {
-      name: "Time Series Feature Extraction for Human Body Monitoring",
-      description:
-        "Employing advanced computational techniques, I conducted Visibility Graph Network Computations. I harnessed both HVG and NVG methodologies to analyze intricate human body movement data. Leveraging Python libraries such as Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, factors were computed and helped generate insightful Scatter Plots. This holistic approach offers deeper insights into movement patterns and relationships.",
-      tags: [
-        {
-          name: "Python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Sckit-Learn",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Numpy",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Pandas",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Matplotlib",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Seaborn",
-          color: "green-text-gradient",
-        },
-      ],
-      image: time,
-      source_code_link: "https://github.com/mahanta-mayur/Time-Series-Feature-Extraction-for-Human-Body-Monitoring",
-    },
+    },                
   ];
 
   export { services, technologies, experiences, testimonials, projects };

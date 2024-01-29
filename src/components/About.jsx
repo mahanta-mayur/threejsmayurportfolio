@@ -52,13 +52,13 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <div className="w-full md:w-[1000px]">
-          I'm a skilled software developer and data engineer with experience in
-          JavaScript, and expertise in frameworks like React, Node.js, Three.js,
-          and Vue. On the data side of things, Through development of personal projects and 
-          a valuable internship, I have learned the importance of having an iterative, 
-          hypothesis-oriented approach to Machine Learning, Analysis and Decision Intelligence. 
-          I have also gained proficiency working with Python, SQL, R, Tableau. I also have 
-          experience as a Software Engineer in Testing, skilled in ensuring the quality and 
+          I'm a skilled data engineer and software developer with experience in
+          Python, SQL, AWS Services like s3, Glue Studio, Athena, QuickSight, Lambda along
+          with Talend, Tableau, Power BI, PostgreSQL, MongoDB. I also have experience in JavaScript, with expertise in 
+          frameworks like ReactJS, ThreeJS, AngularJS and VueJS. On the data side of things, with around 2 years of work experience, 
+          and through development of personal projects, I have learned the importance of having 
+          an iterative, hypothesis-oriented approach to Data Engineering, Science/Analytics and Decision Intelligence. 
+          I also have experience as a Software Engineer in Front-end and Testing, skilled in ensuring the quality and 
           reliability of software solutions. With expertise in tools like Cypress and Docker, 
           I specialize in validating and enhancing the performance of applications, contributing 
           to the creation of robust and dependable software experiences. 
