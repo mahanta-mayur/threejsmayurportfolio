@@ -25,6 +25,7 @@ import {
   } from "../assets";
 
 import pred from '../assets/pred.png'; 
+import kmeans from '../assets/kmeans.png'; 
 import aws from '../assets/aws.png';  
 import mapboxImage from "../assets/mapboxImage.png";
 import tab from "../assets/tab.png";
@@ -370,10 +371,14 @@ import threejs from "../assets/tech/threejs.svg";
       source_code_link: "https://github.com/mahanta-mayur/Data-Analysis-Vizualizations",
     },
     {
-      name: "Time Series Feature Extraction for Human Body Monitoring",
+      name: "Advanced Data Clustering Techniques in Machine Learning",
       description:
-        "Employing advanced computational techniques, I conducted Visibility Graph Network Computations. I harnessed both HVG and NVG methodologies to analyze intricate human body movement data. Leveraging Python libraries such as Scikit-Learn, NumPy, Pandas, SNS, Seaborn, and Matplotlib, factors were computed and helped generate insightful Scatter Plots. This holistic approach offers deeper insights into movement patterns and relationships.",
+        "In this project, I focused on the sophisticated application of clustering methods in data science, with a special emphasis on K-means clustering. Utilizing both synthetic and real-world datasets, I implemented and fine-tuned the K-means algorithm, alongside other clustering techniques, to categorize data efficiently based on inherent similarities. My approach included rigorous data preprocessing, algorithm optimization, and the employment of various validation methods to ascertain the integrity and accuracy of the clustering results. This intricate work highlighted the versatility of clustering methods in revealing intrinsic patterns and groupings within complex datasets, providing valuable insights for data-driven decision-making.",
       tags: [
+        {
+          name: "DataScience",
+          color: "blue-text-gradient",
+        },        
         {
           name: "Python",
           color: "green-text-gradient",
@@ -398,9 +403,17 @@ import threejs from "../assets/tech/threejs.svg";
           name: "Seaborn",
           color: "green-text-gradient",
         },
+        {
+          name: "KMeans",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "AlgorithmOptimization",
+          color: "blue-text-gradient",
+        },                
       ],
-      image: aws,
-      source_code_link: "https://github.com/mahanta-mayur/Time-Series-Feature-Extraction-for-Human-Body-Monitoring",
+      image: kmeans,
+      source_code_link: "https://github.com/mahanta-mayur/Clustering-Method-Implementation/tree/main",
     },
     {
       name: "Employee Rating Application",
