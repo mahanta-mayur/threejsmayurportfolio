@@ -24,7 +24,8 @@ import {
     tripguide,
   } from "../assets";
 
-import pred from '../assets/pred.png'; 
+import pred from '../assets/pred.png';
+import archcovid from '../assets/archcovid.png'; 
 import kmeans from '../assets/kmeans.png'; 
 import aws from '../assets/aws.png';  
 import mapboxImage from "../assets/mapboxImage.png";
@@ -302,7 +303,7 @@ import threejs from "../assets/tech/threejs.svg";
         "In this innovative project, I harnessed AWS cloud technology to orchestrate a robust data engineering pipeline for YouTube video analytics. The journey began with data ingestion from diverse sources, leading to a sophisticated ETL process using AWS Lambda functions. This process efficiently transformed raw data into analyzable formats. Utilizing AWS services like S3, Glue, and Athena, I created a scalable data lake, ensuring high adaptability for growing data volumes. The culmination of this project was the development of insightful QuickSight dashboards, offering a comprehensive analysis of YouTube video trends and viewer interactions based on categories and metrics.",
       tags: [
         {
-          name: "Python",
+          name: "PySpark",
           color: "green-text-gradient",
         },
         {
@@ -338,37 +339,45 @@ import threejs from "../assets/tech/threejs.svg";
       source_code_link: "https://github.com/mahanta-mayur/Youtube-Analysis-AWS",
     },
     {
-      name: "Data Analysis on Elections",
+      name: "COVID-19 Data Insights & Trends with AWS",
       description:
-        "This mini project delves into Indian Elections Analysis using Hadoop (Big Data). It encompasses a comprehensive study of the 2019 Indian Elections datasets through Tableau and Hadoop. This endeavor seeks to ascertain political party popularity, decipher intricate trends, and patterns via Python. Additionally, it probes the correlation between party density and topography. The project culminates with a detailed analysis report, utilizing Hive to explore and infer win/loss percentages of parties.",
+        "In this pivotal project, I leveraged AWS cloud infrastructure to develop a comprehensive data mining and analysis pipeline focused on COVID-19. Starting with the systematic ingestion of global COVID-19 datasets into AWS S3, the project utilized AWS Glue for the ETL processes, transforming a wide range of data into a structured format suitable for analysis. By integrating services such as S3 for data storage, Redshift for data warehousing, and Athena for seamless querying, I built a robust data lake architecture capable of scaling with the influx of data. The project's highlight was employing Python in Jupyter Notebooks for advanced data transformations and exploratory analysis, culminating in the generation of dynamic dashboards. These dashboards visualize critical insights into the pandemic’s trends, risk factors, and impacts, providing valuable resources for public health decision-making.",
       tags: [
         {
-          name: "DataAnalytics",
+          name: "Python",
           color: "pink-text-gradient",
         },        
         {
-          name: "Tableau",
+          name: "DataMining",
           color: "blue-text-gradient",
         },
         {
-          name: "Hive",
+          name: "AWS",
           color: "green-text-gradient",
         },
         {
-          name: "HBase",
+          name: "Redshift",
           color: "pink-text-gradient",
         },
         {
-          name: "HDFS",
+          name: "Athena",
           color: "green-text-gradient",
         },
         {
-          name: "MapReduce",
+          name: "Glue",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "S3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Public Health",
           color: "blue-text-gradient",
         },
       ],
-      image: tab,
-      source_code_link: "https://github.com/mahanta-mayur/Data-Analysis-Vizualizations",
+      image: archcovid,
+      source_code_link: "https://github.com/mahanta-mayur/SARS-CoV-2-AWS-Data-Mining-and-Insights",
     },
     {
       name: "Advanced Data Clustering Techniques in Machine Learning",
@@ -462,30 +471,38 @@ import threejs from "../assets/tech/threejs.svg";
       source_code_link: "https://github.com/mahanta-mayur/Online-Merchandise-Exchange",
     },
     {
-      name: "Weather App",
+      name: "Data Analysis on Elections",
       description:
-        "Discover a user-friendly Weather app built in React JS. Leveraging Open Weather Map API, it fetches current weather data seamlessly. Modern JavaScript Fetch API and React hooks ensure efficient data management, while conditionals adapt the interface to varying weather states. Experience real-time weather insights with simplicity and innovation.",
+        "This mini project delves into Indian Elections Analysis using Hadoop (Big Data). It encompasses a comprehensive study of the 2019 Indian Elections datasets through Tableau and Hadoop. This endeavor seeks to ascertain political party popularity, decipher intricate trends, and patterns via Python. Additionally, it probes the correlation between party density and topography. The project culminates with a detailed analysis report, utilizing Hive to explore and infer win/loss percentages of parties.",
       tags: [
         {
-          name: "ReactJS",
+          name: "DataAnalytics",
+          color: "pink-text-gradient",
+        },        
+        {
+          name: "Tableau",
           color: "blue-text-gradient",
         },
         {
-          name: "fetchAPI",
+          name: "Hive",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "HBase",
           color: "pink-text-gradient",
         },
         {
-          name: "CSS",
+          name: "HDFS",
           color: "green-text-gradient",
         },
+        {
+          name: "MapReduce",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/mahanta-mayur/react-weather-app",
-    },                
+      image: tab,
+      source_code_link: "https://github.com/mahanta-mayur/Data-Analysis-Vizualizations",
+    },         
   ];
 
   export { services, technologies, experiences, testimonials, projects };
