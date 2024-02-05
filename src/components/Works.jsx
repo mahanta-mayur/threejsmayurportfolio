@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='custom-background p-5 rounded-2xl sm:w-[360px] w-full'
+        className='custom-background p-3 rounded-2xl sm:w-[360px] w-full'
         style={{ height: "100%" }} 
       >
         <div className='relative w-full h-[230px]'>
