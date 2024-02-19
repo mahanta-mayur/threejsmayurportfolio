@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -8,10 +9,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Verdana", sans-serif;
+  font-family: 'Space Mono', monospace; /* Updated font here */
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.skills-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.skills-category-title {
+  margin-bottom: 1rem;
+}
+
+.skills-list div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure images within the skills list are not stretched and have some margin */
+.skills-list img {
+  object-fit: contain;
+  margin: 0.5rem;
+}
+
+
+
+.socials {
+  margin-top: 1rem; /* Adjust the top margin as needed */
+  /* Remove the bottom and left properties */
+}
+
 
 .hash-span {
   margin-top: -100px;
@@ -206,7 +237,7 @@
 /* styles.css (or your CSS file) */
 .shadow-card {
   background-color: #070202;
-  border: 2px solid #e52424; /* Red border */
+  border: 2px solid #000000; /* Red border */
   border-radius: 20px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -216,6 +247,27 @@
 .shadow-card:hover {
   transform: translateY(-5px);
 }
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave {
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;  /* Adjust the origin of the rotation */
+  font-size: 2rem; /* Adjust size as needed */
+}
+
 
 
 /* Add this CSS to your stylesheet or component's styles */
@@ -264,9 +316,41 @@ footer a:hover {
 
 /* Custom styles.css or styles.scss */
 .custom-background {
-  background-color: #361818; /* Your custom color here */
+  background-color: #282828; /* Your custom color here */
 }
 
 .custom-backgroundcard {
-  background-color: #1c0c0c; /* Your custom color here */
+  background-color: #282828; /* Your custom color here */
+}
+
+/* Add this at the bottom of your index.css file */
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #333 50%, #000 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
 }

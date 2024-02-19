@@ -130,15 +130,16 @@ import threejs from "../assets/tech/threejs.svg";
   
   const experiences = [
     {
-      title: "Full Stack Software Developer",
+      title: "Software Developer",
       company_name: "Ericsson Global",
       icon: starbucks,
       iconBg: "#d7e1f7",
       date: "January 2020 - June 2020",
       points: [
-        "Pioneered and handled an Angular Dashboard by employing Angular, Rest API via JavaScript for a Low-Code Program and delivered front-end service to beginner developers to choose a pre-defined coding template/environment",
-        "Collaborated on the front-end of a Vila-Portal Project via JavaScript, Bootstrap, HTML3 and CSS5 and provided drag and drop access to company analysis comprising of yearly profits and loss resulting in a detailed insight analysis increase by 8%",
-        "Planned, coordinated, and developed a Resource Management Web Tool using Java with Spring-Boot framework on the backend and JavaScript with Angular framework on the front-end executing a filter-based method on specific employee-based domain and their details and boosted storing and maintaining feature efficiency by ~3-4% from the prior company tool",
+        "Developed Angular Dashboard using AngularJS & Rest API for a Low-Code Program, augmenting template selection for beginners",
+        "Enhanced the Vila-Portal Project interface with JavaScript, Bootstrap, HTML & CSS, introducing drag-and-drop for analytics",
+        "Achieved 6% increase in analytical insight accuracy by optimizing data visualization using AWS Quicksight on the Vila-Portal Project",
+        "Utilized AWS (S3, EC2, Lambda, & DynamoDB) for backend support, elevating Vila-Portals performance & reliability by 3-4%",
       ],
     },
     {
@@ -146,11 +147,13 @@ import threejs from "../assets/tech/threejs.svg";
       company_name: "Ericsson Global",
       icon: tesla,
       iconBg: "#d7e1f7",
-      date: "July 2020 - December 2020",
+      date: "July 2020 - February 2021",
       points: [
-        "Performed data mining and analysis utilizing Python libraries to generate hourly alerts and timed reports along with designing and maintaining production-quality dashboards and carried out data manipulation and organization of 100+ complex datasets",
-        "Optimized SQL queries, data aggregation for analyzing data on established and prospective customers, interactive marketing channels and developed Tableau dashboards and increased sales revenue by 18%",
-        "Designed normalized tables, implemented indexes, and successfully optimized the SQL query processing in MySQL database",
+        "Leveraged Python(PySpark, Scikit-learn, Matplotlib, Celery) for data mining & analysis, generating hourly alerts & report for insights",
+        "Crafted & maintained Tableau dashboards, streamlining analysis of 100+ complex MongoDB datasets, reducing analysis time by 8%",
+        "Implemented ETL framework & integrated Kafka streams to optimize telecom data flow from networks, reducing workload by 10%",
+        "Built ETL pipeline to process unstructured data from telecom network APIs on network faults, traffic data & service usage",
+        "Deployed AWS (Lambda, S3, Glue, Redshift) pipeline enriching Tableau dashboards on user data leading to 11% increase in sales",
       ],
     },
     {
@@ -160,10 +163,13 @@ import threejs from "../assets/tech/threejs.svg";
       iconBg: "#FFFFFF",
       date: "Jan 2023 - July 2023",
       points: [
-        "Streamlined attribute retrieval and resolved UI issues for SiteInformation and LocationInformation Schema using PostgreSQL, DBeaver, VueJS and Postman by optimizing queries and conducting unit tests and Postman API testing to ensure accurate display of information and enhancing the reliability and accuracy of the ABI Virtual Assistant application by 7%",
-        "Demonstrated effective document management and control by adding User Interface Requirement Specifications to the Project Plan in JAMA by defining component appearance, attributes, and their purpose, increasing clarity and ensuring efficient development of the AxM Project",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Collaborated with the development team to implement UI style changes and bug fixes in the alarm config component, resulting in the accurate rendering of alarm text by using AngularJS and contributed to comprehensive end-to-end testing, including verification of SRS items and writing automated tests by leveraging the Cypress testing tool to perform UI testing, evaluating elements such as side navigation menu, theme change functionality, and saving custom layouts",
+        "Optimized data pipeline to boost processing speed of Impella pump logs (200+GB/hr) collected from patients across US hospitals",
+        "Collaborated on AWS (Quicksight, Kinesis, Redshift) real-time dashboard on incoming pump data aiding live data analysis",
+        "Executed AWS (S3, Lambda, Kinesis, Redshift) data pipeline plus Python & Kafka for Impella 2.5 pumps clinical metrics (BPM, CO)",
+        "Improved clinical teams data accessibility by building ETL pipeline from shared devices to S3 & Redshift, saving 10 hours weekly",
+        "Revamped ABIs (Virtual Assistant) UI functionality & design for alarm feature using JavaScript & Vue.JS, ensuring quality feedback",
+        "Refined ABIs attribute retrieval accuracy by 7% via PostgreSQL, DBeaver for DBM, Vue.JS (front-end) & Postman for API validation",
+        "Performed in-depth UI testing via Cypress to ensure 100% SRS compliance, significantly improving navigation and layout usability",
       ],
     },
   ];

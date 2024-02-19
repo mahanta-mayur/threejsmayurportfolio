@@ -76,8 +76,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] custom-background p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
 
         <form
@@ -126,13 +125,6 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-
-        <button
-          onClick={handleDownloadResume}
-          className='mt-4 custom-backgroundcard py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-        >
-          Download Resume
-        </button>
       </motion.div>
 
       <motion.div
