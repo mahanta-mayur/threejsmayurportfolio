@@ -242,7 +242,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "Advanced Machine Learning in Predictive Maintenance",
       description:
-        "This project represents a leap in predictive maintenance for engineering, utilizing machine learning to preemptively identify maintenance needs. Leveraging a UCI synthetic dataset with 10,000 records and 14 features, including Air Temperature and Torque, I delved into extensive data preprocessing to handle nulls, outliers, and feature selection. The project employed a variety of ML models - Logistic Regression, Naive Bayes, Decision Trees, and Support Vector Machines - to predict equipment failures, leading to optimized maintenance schedules, enhanced productivity, and reduced operational costs. Key success metrics included an impressive F1-score of 0.95 for Logistic Regression, underscoring its efficacy in failure prediction.",
+        "Advanced a predictive maintenance model using machine learning on a UCI dataset with 14 features, like Air Temperature and Torque. Focused on data preprocessing and employed Logistic Regression, Naive Bayes, Decision Trees, and SVMs for predicting equipment failures. Achieved a notable F1-score of 0.95 with Logistic Regression, significantly improving maintenance scheduling and reducing costs",
       tags: [
         {
           name: "python",
@@ -275,7 +275,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "Advanced Data Clustering Techniques in Machine Learning",
       description:
-        "In this project, I focused on the sophisticated application of clustering methods in data science, with a special emphasis on K-means clustering. Utilizing both synthetic and real-world datasets, I implemented and fine-tuned the K-means algorithm, alongside other clustering techniques, to categorize data efficiently based on inherent similarities. My approach included rigorous data preprocessing, algorithm optimization, and the employment of various validation methods to ascertain the integrity and accuracy of the clustering results. This intricate work highlighted the versatility of clustering methods in revealing intrinsic patterns and groupings within complex datasets, providing valuable insights for data-driven decision-making.",
+        "Implemented K-means clustering and other techniques to segment synthetic and real-world datasets. The project involved thorough data preprocessing and optimization of clustering algorithms, validated through various methods to ensure result accuracy. Demonstrated clustering's potential in uncovering patterns for informed decision-making",
       tags: [
         {
           name: "DataScience",
@@ -320,7 +320,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "YouTube Data Engineering & Analytics (AWS & PySpark",
       description:
-        "In this innovative project, I harnessed AWS cloud technology to orchestrate a robust data engineering pipeline for YouTube video analytics. The journey began with data ingestion from diverse sources, leading to a sophisticated ETL process using AWS Lambda functions. This process efficiently transformed raw data into analyzable formats. Utilizing AWS services like S3, Glue, and Athena, I created a scalable data lake, ensuring high adaptability for growing data volumes. The culmination of this project was the development of insightful QuickSight dashboards, offering a comprehensive analysis of YouTube video trends and viewer interactions based on categories and metrics.",
+        "Developed a data engineering pipeline on AWS for YouTube analytics, encompassing data ingestion, ETL processes with Lambda, and data storage in a scalable S3 data lake. Leveraged AWS Glue and Athena for data organization and querying, culminating in QuickSight dashboards that provided detailed analyses of video trends and viewer engagement",
       tags: [
         {
           name: "PySpark",
@@ -361,7 +361,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "COVID-19 Data Insights & Trends (AWS & Python)",
       description:
-        "In this pivotal project, I leveraged AWS cloud infrastructure to develop a comprehensive data mining and analysis pipeline focused on COVID-19. Starting with the systematic ingestion of global COVID-19 datasets into AWS S3, the project utilized AWS Glue for the ETL processes, transforming a wide range of data into a structured format suitable for analysis. By integrating services such as S3 for data storage, Redshift for data warehousing, and Athena for seamless querying, I built a robust data lake architecture capable of scaling with the influx of data. The project's highlight was employing Python in Jupyter Notebooks for advanced data transformations and exploratory analysis, culminating in the generation of dynamic dashboards. These dashboards visualize critical insights into the pandemic’s trends, risk factors, and impacts, providing valuable resources for public health decision-making.",
+        "Constructed an AWS-based data analysis pipeline for COVID-19 data, starting with data collection into S3 and utilizing AWS Glue for ETL. A scalable data lake was formed using S3, with Redshift for warehousing and Athena for queries. Advanced data transformations and exploratory analysis were conducted using Python in Jupyter Notebooks, resulting in dynamic dashboards that visualized key pandemic trends and supported public health decisions",
       tags: [
         {
           name: "Python",
@@ -402,7 +402,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "Spotify Data Engineering and Analysis (AWS & Python)",
       description:
-        "In this innovative project, I harnessed the power of AWS to engineer and analyze the Spotify 2023 dataset, uncovering key insights into music streaming trends. Starting with Python for data cleaning and preprocessing, stored the curated data in Amazon S3. AWS Glue's ETL capabilities transformed this data for in-depth analysis. Automated schema detection by AWS Glue crawlers enabled efficient SQL queries in Amazon Athena, culminating in the creation of insightful dashboards in AWS QuickSight. This project illustrates the potential of combining AWS cloud services with Python to delve into the dynamics of music preferences, offering valuable insights for the industry.",
+        "Utilized AWS and Python to analyze the Spotify 2023 dataset, revealing streaming trends. Cleaned and preprocessed data using Python, stored it in S3, and transformed it via AWS Glue for analysis. Leveraged Glue crawlers for schema detection and Athena for SQL querying, which fed into AWS QuickSight dashboards that highlighted music streaming dynamics, providing valuable industry insights",
       tags: [
         {
           name: "DataEngineering",
@@ -468,7 +468,7 @@ import threejs from "../assets/tech/threejs.svg";
     {
       name: "Bike Sharing Analysis in Capital Bikeshare System (Tableau)",
       description:
-        "This project dives into the Capital Bikeshare system in Washington D.C., analyzing bike-sharing activities for 2011 and 2012 to gauge the impact of environmental factors and seasonal variations on bike rental patterns. Using a dataset with 17,389 records, including detailed bike rental counts and weather conditions, unlocked insights into urban mobility and its correlation with weather and seasons. Through advanced data processing and Tableau visualizations, I've highlighted key trends, such as the variation in casual and registered user behavior, the influence of temperature on bike usage, and the distinct patterns of bike rentals during different times of the day and year. The findings underscore the importance of strategic bike placement and availability to maximize system profitability and support sustainable urban transport solutions.",
+        "Analyzed Washington D.C.'s Capital Bikeshare data from 2011-2012, studying the influence of weather and seasons on bike-sharing patterns. Processed a dataset of 17,389 records to discover trends in urban mobility, using Tableau to visualize user behaviors, temperature impacts, and rental cycles. Results informed strategic bike distribution to enhance system efficiency and promote sustainable transportation",
       tags: [
         {
           name: "DataAnalysis",

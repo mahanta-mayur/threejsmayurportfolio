@@ -11,6 +11,7 @@ import animationData from '../assets/frontend.json';
 import animationDataEngineer from '../assets/dataengineer.json';
 import animationDataAnalyst from '../assets/dataanalyst.json';
 import animationDataAutomationEngineer from '../assets/automationengineer.json';
+import profilePic from '../assets/profile_pic.png'; 
 
 // At the top of your About.jsx file
 const SkillBadge = ({ src, alt }) => (
@@ -125,6 +126,9 @@ const About = () => {
     <>
       <motion.div variants={textVariant()} className="text-center">
         <h2 className={`${styles.sectionHeadText} mx-auto`}>About me</h2>
+        <div className="profile-pic-container mt-4 flex justify-center">
+          <img src={profilePic} alt="Mayur Mahanta" className="profile-pic" />
+        </div>
       </motion.div>
 
       <motion.div

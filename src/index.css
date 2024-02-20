@@ -43,6 +43,23 @@
   /* Remove the bottom and left properties */
 }
 
+.profile-pic-container {
+  /* Center the image container */
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  /* Adjust the size, border, and other styles as needed */
+  width: 300px; /* or whatever size you prefer */
+  height: 300px;
+  border-radius: 50%; /* circular image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+  border: 3px solid #1d1c1c; /* border color from your theme */
+  object-fit: cover; /* ensures the image covers the area properly */
+  margin-bottom: 1rem; /* space below the image */
+}
+
 
 .hash-span {
   margin-top: -100px;
