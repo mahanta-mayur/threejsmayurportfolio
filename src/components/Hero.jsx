@@ -3,7 +3,7 @@ import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
-  const newBio = 'Currently a Grad student at Northeastern University, Boston 🎓 Spring 2024. With 2 years of experience in Python, SQL, JavaScript and a suite of Cloud services (AWS & Azure). My expertise & experience is centered around spearheading Data Engineering | Data Science | Data Analytics projects & pipelines at a petabyte scale, significantly enhancing business operations.';
+  const newBio = 'Currently a Masters student at Northeastern University, Boston graduating 🎓 in Spring 2024. With 2 years of experience in Python, SQL, JavaScript and a suite of Cloud services (AWS & Azure). My expertise & experience is centered around spearheading Data Engineering | Data Science | Data Analytics projects & pipelines at a petabyte scale, significantly enhancing business operations.';
 
   return (
     <section className="relative w-full h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-16">
