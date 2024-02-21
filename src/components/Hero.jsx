@@ -2,6 +2,13 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
+// Import SVG files
+import githubIcon from '../assets/icons8-github.svg';
+import linkedinIcon from '../assets/icons8-linkedin.svg';
+import instagramIcon from '../assets/icons8-instagram.svg';
+import tableauIcon from '../assets/tableau-software.svg';
+import kaggleIcon from '../assets/kaggle-icon.svg';
+
 const Hero = () => {
   const newBio = 'Currently a Masters student at Northeastern University, Boston graduating 🎓 in Spring 2024. With 2 years of experience in Python, SQL, JavaScript and a suite of Cloud services (AWS & Azure). My expertise & experience is centered around spearheading Data Engineering | Data Science | Data Analytics projects & pipelines at a petabyte scale, significantly enhancing business operations.';
 
@@ -30,23 +37,23 @@ const Hero = () => {
           <div className='flex items-center gap-4'>
             {/* GitHub Icon */}
             <a href="https://github.com/mahanta-mayur" target="_blank" rel="noopener noreferrer" className='text-white hover:text-secondary'>
-              <img src="src/assets/icons8-github.svg" alt="GitHub" style={{ width: '2em', height: '2em' }} />
+              <img src={githubIcon} alt="GitHub" style={{ width: '2em', height: '2em' }} />
             </a>
             {/* LinkedIn Icon */}
             <a href="https://www.linkedin.com/in/maymah/" target="_blank" rel="noopener noreferrer" className='text-white hover:text-secondary'>
-              <img src="src/assets/icons8-linkedin.svg" alt="LinkedIn" style={{ width: '2em', height: '2em' }} />
+              <img src={linkedinIcon} alt="LinkedIn" style={{ width: '2em', height: '2em' }} />
             </a>
             {/* Instagram Icon */}
             <a href="https://www.instagram.com/mayur_mahanta_/" target="_blank" rel="noopener noreferrer" className='text-white hover:text-secondary'>
-              <img src="src/assets/icons8-instagram.svg" alt="Instagram" style={{ width: '2em', height: '2em' }} />
+              <img src={instagramIcon} alt="Instagram" style={{ width: '2em', height: '2em' }} />
             </a>
             {/* Tableau Icon */}
             <a href="https://public.tableau.com/app/profile/mayur.mahanta/vizzes" target="_blank" rel="noopener noreferrer" className='text-white hover:text-secondary'>
-              <img src="src/assets/tableau-software.svg" alt="Tableau" style={{ width: '1.5em', height: '1.5em' }} />
+              <img src={tableauIcon} alt="Tableau" style={{ width: '1.5em', height: '1.5em' }} />
             </a>
             {/* Kaggle Icon */}
             <a href="https://www.kaggle.com/mayurmahantaa" target="_blank" rel="noopener noreferrer" className='text-white hover:text-secondary'>
-              <img src="src/assets/kaggle-icon.svg" alt="Kaggle" style={{ width: '1.5em', height: '1.5em' }} />
+              <img src={kaggleIcon} alt="Kaggle" style={{ width: '1.5em', height: '1.5em' }} />
             </a>
           </div>
         </div>
