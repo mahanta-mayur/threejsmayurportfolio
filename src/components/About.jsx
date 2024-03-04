@@ -14,10 +14,12 @@ import animationDataAutomationEngineer from '../assets/automationengineer.json';
 import profilePic from '../assets/profile_pic.png'; 
 
 // At the top of your About.jsx file
-const SkillBadge = ({ src, alt }) => (
-  <img src={src} alt={alt} height="80" style={{ margin: '5 10px' }} />
+const SkillBadge = ({ src, alt, name }) => (
+  <div className="flex flex-col items-center m-4">
+    <img src={src} alt={alt} style={{ width: '40px', height: '40px' }} />
+    <span className="text-sm text-white mt-2">{name}</span>
+  </div>
 );
-
 
 const SkillsSection = () => (
   <div className="skills-section my-10 w-full max-w-6xl mx-auto mt-20">
@@ -26,69 +28,61 @@ const SkillsSection = () => (
       <div>
         <h4 className="skills-category-title text-white text-center">Programming Languages</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=python" alt="Python" />
-          <SkillBadge src="https://skillicons.dev/icons?i=c" alt="C" />
-          <SkillBadge src="https://skillicons.dev/icons?i=java" alt="Java" />
-          <SkillBadge src="https://skillicons.dev/icons?i=r" alt="R" />
-          <SkillBadge src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" />
-          <SkillBadge src="https://skillicons.dev/icons?i=scala" alt="Scala" />
+          <SkillBadge src="https://skillicons.dev/icons?i=python" alt="Python" name="Python"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=c" alt="C" name="C" />
+          <SkillBadge src="https://skillicons.dev/icons?i=java" alt="Java" name="Java" />
+          <SkillBadge src="https://skillicons.dev/icons?i=r" alt="R" name="R"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" name="JavaScript" />
+          <SkillBadge src="https://skillicons.dev/icons?i=scala" alt="Scala" name="Scala" />
         </div>
       </div>
       <div>
         <h4 className="skills-category-title  text-white text-center">Frameworks & Libraries</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=react" alt="React" />
-          <SkillBadge src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
-          <SkillBadge src="https://skillicons.dev/icons?i=express" alt="Express" />
-          <SkillBadge src="https://skillicons.dev/icons?i=vue" alt="Vue" />
-          <SkillBadge src="https://skillicons.dev/icons?i=angular" alt="Angular" />
-          <SkillBadge src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" />
-          <SkillBadge src="https://skillicons.dev/icons?i=netlify" alt="Netlify" />
-          <SkillBadge src="https://skillicons.dev/icons?i=hibernate" alt="Hibernate" />
-          <SkillBadge src="https://skillicons.dev/icons?i=threejs" alt="Three.js" />
+          <SkillBadge src="https://skillicons.dev/icons?i=react" alt="React" name="React" />
+          <SkillBadge src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" name="Node.js" />
+          <SkillBadge src="https://skillicons.dev/icons?i=vue" alt="Vue" name="Vue" />
+          <SkillBadge src="https://skillicons.dev/icons?i=angular" alt="Angular" name="Angular" />
+          <SkillBadge src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" name="Bootstrap"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=threejs" alt="Three.js" name="Three.js" />
         </div>
       </div>
       <div>
         <h4 className="skills-category-title  text-white text-center">Cloud Services & Platforms</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=aws" alt="AWS" />
-          <SkillBadge src="https://skillicons.dev/icons?i=azure" alt="Azure" />
-          <SkillBadge src="https://skillicons.dev/icons?i=docker" alt="Docker" />
-          <SkillBadge src="https://skillicons.dev/icons?i=github" alt="GitHub" />
-          <SkillBadge src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" />
-          <SkillBadge src="https://skillicons.dev/icons?i=terraform" alt="Terraform" />
+          <SkillBadge src="https://skillicons.dev/icons?i=aws" alt="AWS" name="AWS"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=azure" alt="Azure" name="Azure"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=docker" alt="Docker" name="Docker"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=git" alt="Git" name="Git"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=github" alt="GitHub" name="GitHub"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" name="GitLab"/>
         </div>
       </div>
       <div>
         <h4 className="skills-category-title  text-white text-center">Databases</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
-          <SkillBadge src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
-          <SkillBadge src="https://skillicons.dev/icons?i=dynamodb" alt="DynamoDB" />
-          <SkillBadge src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" />
+          <SkillBadge src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" name="MongoDB"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=mysql" alt="MySQL" name="MySQL"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=dynamodb" alt="DynamoDB" name="DynamoDB"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" name="PostgreSQL"/>
         </div>
       </div>
       <div>
         <h4 className="skills-category-title  text-white text-center">Tools & Other Technologies</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=figma" alt="Figma" />
-          <SkillBadge src="https://skillicons.dev/icons?i=git" alt="Git" />
-          <SkillBadge src="https://skillicons.dev/icons?i=vite" alt="Vite" />
-          <SkillBadge src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" />
-          <SkillBadge src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
-          <SkillBadge src="https://skillicons.dev/icons?i=eclipse" alt="Eclipse" />
-          <SkillBadge src="https://skillicons.dev/icons?i=maven" alt="Maven" />
-          <SkillBadge src="https://skillicons.dev/icons?i=anaconda" alt="Anaconda" />
-          <SkillBadge src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-learn" />
-          <SkillBadge src="https://skillicons.dev/icons?i=kafka" alt="Kafka" />
-          <SkillBadge src="https://skillicons.dev/icons?i=regex" alt="Regex" />
+          <SkillBadge src="https://skillicons.dev/icons?i=vscode" alt="VS Code" name="VS Code"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=eclipse" alt="Eclipse" name="Eclipse"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=maven" alt="Maven" name="Maven"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-learn" name="Scikit-learn"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=kafka" alt="Kafka" name="Kafka"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=regex" alt="Regex" name="Regex"/>
         </div>
       </div>
       <div>
         <h4 className="skills-category-title  text-white text-center">Game Development</h4>
         <div className="skills-list flex justify-center flex-wrap">
-          <SkillBadge src="https://skillicons.dev/icons?i=unity" alt="Unity" />
-          <SkillBadge src="https://skillicons.dev/icons?i=unreal" alt="Unreal" />
+          <SkillBadge src="https://skillicons.dev/icons?i=unity" alt="Unity" name="Unity"/>
+          <SkillBadge src="https://skillicons.dev/icons?i=unreal" alt="Unreal" name="Unreal"/>
         </div>
       </div>
     </div>
