@@ -10,7 +10,7 @@ import tableauIcon from '../assets/tableau-software.svg';
 import kaggleIcon from '../assets/kaggle-icon.svg';
 
 const Hero = () => {
-  const newBio = 'Currently a Masters student at Northeastern University, Boston graduating 🎓 in Spring 2024. With 2 years of experience in Python, SQL, JavaScript and a suite of Cloud services (AWS & Azure). My expertise & experience is centered around spearheading Data Engineering | Data Science | Data Analytics projects & pipelines at a petabyte scale, significantly enhancing business operations.';
+  const newBio = 'Graduated with a MS in Data Engineering & Analytics from Northeastern University (Class of 2024 🎓). With 2+ years of experience in Python, PySpark, SQL, JavaScript and a suite of Cloud services (AWS, GCP, Databricks). My expertise & experience is centered around spearheading Data Engineering | Data Science | Data Analytics projects & pipelines at a petabyte scale, significantly enhancing business operations.';
 
   return (
     <section className="relative w-full h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-16">
@@ -22,7 +22,7 @@ const Hero = () => {
         className="z-10 flex-grow" // Adjust the percentage as needed
       >
         <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi! I am Mayur <span className="wave">👋</span> <span className={`${styles.heroSubText} text-white`}>Ex Data Engineer Abiomed | Ex Software Developer Ericsson</span>
+          Hi! I am Mayur <span className="wave">👋</span> <span className={`${styles.heroSubText} text-white`}>Data Professional</span>
         </h1>
         <motion.p
           className={`${styles.heroSubText} mt-4 text-white`}

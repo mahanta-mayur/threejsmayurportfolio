@@ -24,6 +24,7 @@ import {
     tripguide,
   } from "../assets";
 
+import cvs from '../assets/company/cvs.png';
 import pred from '../assets/pred.png';
 
 import awstech from '../assets/tech/aws.png'
@@ -130,32 +131,18 @@ import threejs from "../assets/tech/threejs.svg";
   
   const experiences = [
     {
-      title: "Software Developer",
-      company_name: "Ericsson Global",
-      icon: starbucks,
-      iconBg: "#d7e1f7",
-      date: "January 2020 - June 2020",
+      title: "Data Scientist",
+      company_name: "CVSHealth",
+      icon: cvs,
+      iconBg: "#FFFFFF",
+      date: "July 2024 - Present",
       points: [
-        "Developed Angular Dashboard using AngularJS & Rest API for a Low-Code Program, augmenting template selection for beginners",
-        "Enhanced the Vila-Portal Project interface with JavaScript, Bootstrap, HTML & CSS, introducing drag-and-drop for analytics",
-        "Achieved 6% increase in analytical insight accuracy by optimizing data visualization using AWS Quicksight on the Vila-Portal Project",
-        "Utilized AWS (S3, EC2, Lambda, & DynamoDB) for backend support, elevating Vila-Portals performance & reliability by 3-4%",
+        "Augmented P&L forecasting accuracy by 5% using Python & SQL, directly influencing contract adjustments & client outcomes",
+        "Conducted Root Cause Analysis to identify & resolve forecasting errors in rebate rates & specialty cost of goods improving reliability",
+        "Streamlined data pipelines in Databricks with PySpark & MySQL, boosting processing efficiency by 12% & reducing forecast errors",
+        "Integrated artifacts in GCP for Data Forecast Mart, automated ingestion & built APIs, enhancing data availability for underwriters",
       ],
-    },
-    {
-      title: "Data Engineer",
-      company_name: "Ericsson Global",
-      icon: tesla,
-      iconBg: "#d7e1f7",
-      date: "July 2020 - February 2021",
-      points: [
-        "Leveraged Python(PySpark, Scikit-learn, Matplotlib, Celery) for data mining & analysis, generating hourly alerts & report for insights",
-        "Crafted & maintained Tableau dashboards, streamlining analysis of 100+ complex MongoDB datasets, reducing analysis time by 8%",
-        "Implemented ETL framework & integrated Kafka streams to optimize telecom data flow from networks, reducing workload by 10%",
-        "Built ETL pipeline to process unstructured data from telecom network APIs on network faults, traffic data & service usage",
-        "Deployed AWS (Lambda, S3, Glue, Redshift) pipeline enriching Tableau dashboards on user data leading to 11% increase in sales",
-      ],
-    },
+    },  
     {
       title: "Data Engineer",
       company_name: "Abiomed",
@@ -172,6 +159,33 @@ import threejs from "../assets/tech/threejs.svg";
         "Performed in-depth UI testing via Cypress to ensure 100% SRS compliance, significantly improving navigation and layout usability",
       ],
     },
+    {
+      title: "Data Engineer",
+      company_name: "Ericsson Global",
+      icon: tesla,
+      iconBg: "#d7e1f7",
+      date: "July 2020 - February 2021",
+      points: [
+        "Leveraged Python(PySpark, Scikit-learn, Matplotlib, Celery) for data mining & analysis, generating hourly alerts & report for insights",
+        "Crafted & maintained Tableau dashboards, streamlining analysis of 100+ complex MongoDB datasets, reducing analysis time by 8%",
+        "Implemented ETL framework & integrated Kafka streams to optimize telecom data flow from networks, reducing workload by 10%",
+        "Built ETL pipeline to process unstructured data from telecom network APIs on network faults, traffic data & service usage",
+        "Deployed AWS (Lambda, S3, Glue, Redshift) pipeline enriching Tableau dashboards on user data leading to 11% increase in sales",
+      ],
+    },   
+    {
+      title: "Software Developer",
+      company_name: "Ericsson Global",
+      icon: starbucks,
+      iconBg: "#d7e1f7",
+      date: "January 2020 - June 2020",
+      points: [
+        "Developed Angular Dashboard using AngularJS & Rest API for a Low-Code Program, augmenting template selection for beginners",
+        "Enhanced the Vila-Portal Project interface with JavaScript, Bootstrap, HTML & CSS, introducing drag-and-drop for analytics",
+        "Achieved 6% increase in analytical insight accuracy by optimizing data visualization using AWS Quicksight on the Vila-Portal Project",
+        "Utilized AWS (S3, EC2, Lambda, & DynamoDB) for backend support, elevating Vila-Portals performance & reliability by 3-4%",
+      ],
+    },          
   ];
   
   const testimonials = [
